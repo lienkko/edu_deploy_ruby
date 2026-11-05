@@ -17,6 +17,7 @@ env:
     - RAILS_MASTER_KEY
   clear:
     SOLID_QUEUE_IN_PUMA: true
+    
 
 aliases:
   console: app exec --interactive --reuse "bin/rails console"
